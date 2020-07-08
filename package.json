@@ -1,0 +1,35 @@
+{
+  "name": "greenroom-server",
+  "version": "0.1.0",
+  "description": "chat server for Green Room",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jl642/greenroom-server.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "socket.io"
+  ],
+  "author": "Jeffrey Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jl642/greenroom-server/issues"
+  },
+  "homepage": "https://github.com/jl642/greenroom-server#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
